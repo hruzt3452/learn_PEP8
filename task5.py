@@ -1,7 +1,7 @@
 def check_values(a, b):
-    if a == True and b == False:
+    if a is True and b is False:
         return True
-    elif a == None and b == None:
+    elif a is None and b is None:
         return None
     else:
         if a > b:
@@ -10,8 +10,7 @@ def check_values(a, b):
             return -1
         elif a == b:
             return 0
-
-def process_flag():        
-    flag = True
-    while flag == True:
-        flag = False
+   
+flag = True
+while flag == True:
+    flag = False
